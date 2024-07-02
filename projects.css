@@ -1,0 +1,140 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    font-family:Inter, sans-serif ;
+}
+
+h1,p{
+    display:flex;
+    align-items: flex-end;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 80%;
+    background-color: #fff;
+}
+
+.project img {
+    width: 50%; /* Adjust the width of the image container */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align images to the right */
+    padding-right: 15px; /* Add padding to the right side */
+}
+
+.project-info {
+    max-width: 600px;
+}
+
+.project-info h2 {
+    margin-top: 0;
+}
+
+.project-info button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.project-info button:hover {
+    background-color: #333;
+}
+
+
+/* footer */
+
+
+.footer {
+    height: 400px;
+    margin-top: 200px;
+    background-color: #f1eae6;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* margin:0 15px; */
+}
+
+.footer div {
+    /* margin-top: 200px; */
+    flex: 1;
+    margin: 70px;
+}
+.footer h3 {
+    margin-top: 0;
+}
+.footer p, .footer a {
+    margin: 5px 0;
+    color: #333;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .contact p, .footer .contact a {
+    font-size: 14px;
+}
+.footer .sitemap a {
+    display: block;
+}
+.footer .social a {
+    display: block;
+}
+.footer .copyright {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
